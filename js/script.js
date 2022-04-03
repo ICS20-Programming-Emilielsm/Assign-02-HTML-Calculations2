@@ -11,13 +11,14 @@
 function calculate () {
   // input
   let radius = parseFloat(document.getElementById('radius').value)
+
   
   // process
-  let area = Math.PI * radius**2
+  let area = Math.PI * radius**2 
   let circumfrence = 2 * Math.PI * radius 
   
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-   document.getElementById('circumfrence').innerHTML = 'circumfrence is: ' + circumfrence + ' cm'
+   document.getElementById('circumfrence').innerHTML = 'Circumfrence is: ' + circumfrence + ' cm'
   
 }

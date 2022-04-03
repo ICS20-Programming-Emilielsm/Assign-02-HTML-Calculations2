@@ -10,12 +10,14 @@
  */
 function calculate () {
   // input
-  const base = parseInt(document.getElementById('base-of-triangle').value)
-  const height = parseInt(document.getElementById('height-of-triangle').value)
+  let radius = parseFloat(document.getElementById('radius').value)
   
   // process
-  const area = (base * height)/2
+  let area = Math.PI * radius**2
+  let circumfrence = 2 * Math.PI * radius 
   
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
+   document.getElementById('circumfrence').innerHTML = 'circumfrence is: ' + circumfrence + ' cm'
+  
 }

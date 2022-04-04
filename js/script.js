@@ -18,7 +18,7 @@ function calculate () {
   let circumfrence = 2 * Math.PI * radius 
   
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-   document.getElementById('circumfrence').innerHTML = 'Circumfrence is: ' + circumfrence + ' cm'
+  document.getElementById('area').innerHTML = 'Area is: ' + area.toFixed(2) + ' cm²'
+   document.getElementById('circumfrence').innerHTML = 'Circumfrence is: ' + circumfrence.toFixed(2) + ' cm'
   
 }

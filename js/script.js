@@ -1,6 +1,6 @@
 // Copyright (c) 2022 Ms Raffin All rights reserved
 //
-// Created by: Ms Raffin
+// Created by: Emilie
 // Created on: March 2022
 // This file contains the JS functions for index.html
 
@@ -20,5 +20,4 @@ function calculate () {
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area.toFixed(2) + ' cm²'
    document.getElementById('circumfrence').innerHTML = 'Circumfrence is: ' + circumfrence.toFixed(2) + ' cm'
-  
 }

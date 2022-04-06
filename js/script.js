@@ -1,10 +1,9 @@
 // Copyright (c) 2022 Ms Raffin All rights reserved
-//
 // Created by: Emilie
 // Created on: March 2022
 // This file contains the JS functions for index.html
 
-'use strict'
+"use strict"
 /**
  * This function calculates area of the triangle.
  */

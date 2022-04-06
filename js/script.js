@@ -18,5 +18,5 @@ function calculate () {
   
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area.toFixed(2) + ' cm²'
-   document.getElementById('circumfrence').innerHTML = 'Circumfrence is: ' + circumfrence.toFixed(2) + ' cm'
+   document.getElementById('circumfrence').innerHTML = 'Circumference is: ' + circumfrence.toFixed(2) + ' cm'
 }

@@ -9,15 +9,13 @@ body {
 }
 
 h1 {
-	background-color: rgb(58, 79, 238)
-;
-	color: hsl(274, 9%, 71%)
-;
+	background-color: rgb(58, 79, 238);
+	color: hsl(273, 17%, 64%);
 	padding: 40px;
 	text-align: center;
 }
 
 p {
-	background-color: #b4e4da
-;
+	background-color: #b4e4da;
+  color: hsl(273, 22%, 48%);
 }
